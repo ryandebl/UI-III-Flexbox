@@ -67,113 +67,83 @@ h1, h2, h3, h4, h5 {
 html {
 	margin: 40px;
 }
+body {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
 
+header nav {
+	/* display: flex;
+	justify-content: space-between; */
 
-.links {
-	display: inline-block;
-	height: 50px;
-	width: 10%;
-	color: gray;
+}
+
+nav .links {
+	display: flex;
+	justify-content: space-evenly;
+	/* width: 50%; */
+	
+
+}
+
+.links a {
+	/* border: solid black; */
 	text-decoration: none;
-}
-.innWPic {
-	/* column-count: 1; */
-	display: inline-block;
-	width: 40%;
-	
-	margin: 5%;
-}
-/* .cirPic {
-	display: inline-block;
-	;
-}  */
-.IOD {
-	font-size: 70px;
-	font-family: 'Bangers';
-	padding-right: 3400px;
-	margin-left: 300px;
-}
-/* .inn {
-	display: inline-block;
-	height: 50px;
-	width: 33%;	
-	font-size: 70px;
-	font-family: 'Bangers'; 
-}
-
-.on {
-	display: inline-block;
-	height: 50px;
-	width: 33%;	
-	font-size: 70px;
-	font-family: 'Bangers';
-}
-
-.dem {
-	display: inline-block;
-	height: 50px;
-	width: 33%;	
-	font-size: 70px;
-	font-family: 'Bangers';
-} */
-.get-started {
-	border: 1px solid black;
-	padding: 10px 40px;
-	margin-left: 300px;
-	display: inline-block;
-}
-.featAbout {
-	display: inline-block;
-	height: 50px;
-	width: 49%;
-	margin-top: 50px;
-	font-family: 'Bangers', cursive;
-}
-
-.miscTextUpper {
-	display: inline-block;
-	height: 50px;
-	width: 49%;
-	margin-bottom: 50px;
+	color: gray;
 	
 }
 
-
-
-.servProVis {
-	display: inline-block;
-	height: 50px;
-	width: 33%;
-	margin-top: 50px;
-	font-family: 'Bangers', cursive;
+.title {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: center;
+	
 }
 
-.miscTextLower {
-	display: inline-block;
-	height: 50px;
-	width: 33%;
-	margin-bottom: 50px;
+.title-text {
+	text-align: center;
 }
 
-.midSection {
+h1 {
+	text-align: center;
+	font-size: 70px;
+}
+
+.top-content {
+	display: flex;
+	/* width: 48%; */
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	margin-right: 500px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
-/* .midAboveImg {
-	margin-bottom: 50px;
-} */
+.middle-img {
+	width: 100%;
+}
+
+
+.bottom-content {
+	display: flex;
+	/* width: 48%; */
+	border-bottom: 1px solid black;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin-right: 1000px;
+}
+
 .contact {
-	font-family: 'Bangers', cursive;
-	margin-top: 50px;
-	margin-bottom: 25px;
+	margin-top: 40px;
 }
 
 .number {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.copyright {
-	text-align: center;
-}
+
+
